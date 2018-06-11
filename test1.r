@@ -1,4 +1,4 @@
-mfn <- function() {
-  x <- rnorm(100)
-  mean(x)
+mfn <- function(x) {
+  y <- rnorm(x)
+  mean(y)
 }
